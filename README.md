@@ -58,16 +58,16 @@ Java Backend Developer
                   |
               API Gateway
                   |
-   ------------------------------------------------
-   |   Auth   |   User   |   Restaurant   |  Menu  |
-   |           Order Service             | Payment |
-   ------------------------------------------------
-                         |
-                       Kafka
-                         |
-               Notification Service
-                   |           |
-                 Email      WhatsApp
+------------------------------------------------
+|  Auth  |  User  |  Restaurant  |  Menu  |
+|           Order Service        | Payment |
+------------------------------------------------
+                      |
+                    Kafka
+                      |
+            Notification Service
+               |             |
+             Email        WhatsApp
 ```
           |
       Email / WhatsApp
