@@ -51,6 +51,17 @@ Order Service → Kafka → Notification Service
 Vishal Jadhav  
 Java Backend Developer
 
+## Architecture Overview
+
+The system follows a **microservices architecture** with Spring Boot services communicating through REST APIs and Kafka event streaming.
+
+Main components:
+- API Gateway for routing
+- Eureka for service discovery
+- Kafka for asynchronous messaging
+- Razorpay for payments
+- Twilio for notifications
+
 ## System Architecture
 
 ```
