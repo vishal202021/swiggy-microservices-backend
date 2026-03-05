@@ -80,5 +80,4 @@ Main components:
                |             |
              Email        WhatsApp
 ```
-          |
-      Email / WhatsApp
+    
