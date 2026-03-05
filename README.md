@@ -51,18 +51,21 @@ Order Service → Kafka → Notification Service
 Vishal Jadhav  
 Java Backend Developer
 
+## System Architecture
 
-Client
-   |
-API Gateway
-   |
-----------------------------
-| Auth | User | Restaurant |
-| Menu | Order | Payment   |
-----------------------------
-          |
-        Kafka
-          |
-   Notification Service
+            Client
+              |
+          API Gateway
+              |
+-------------------------------------
+|   Auth   |   User   |  Restaurant |
+|   Menu   |   Order  |   Payment   |
+-------------------------------------
+                   |
+                 Kafka
+                   |
+         Notification Service
+            |            |
+          Email       WhatsAppvice
           |
       Email / WhatsApp
