@@ -53,19 +53,21 @@ Java Backend Developer
 
 ## System Architecture
 
-            Client
-              |
-          API Gateway
-              |
--------------------------------------
-|   Auth   |   User   |  Restaurant |
-|   Menu   |   Order  |   Payment   |
--------------------------------------
-                   |
-                 Kafka
-                   |
-         Notification Service
-            |            |
-          Email       WhatsAppvice
+```
+                Client
+                  |
+              API Gateway
+                  |
+   ------------------------------------------------
+   |   Auth   |   User   |   Restaurant   |  Menu  |
+   |           Order Service             | Payment |
+   ------------------------------------------------
+                         |
+                       Kafka
+                         |
+               Notification Service
+                   |           |
+                 Email      WhatsApp
+```
           |
       Email / WhatsApp
