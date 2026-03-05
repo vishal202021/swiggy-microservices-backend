@@ -1,0 +1,32 @@
+server:
+  port: 8087
+
+spring:
+  application:
+    name: payment-service
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/paymentdb
+    username: postgres
+    password: Vishal@123
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+
+
+order:
+ service:
+     url: http://localhost:8080
+
+razorpay:
+  key-id: rzp_test_Rwfp5l4Yq8laue
+  key-secret: D9JZONINv65vxhgSUQYLCE7z
+  webhook-secret: whsec_550e8400e29b41d4a716446655440000
+
+internal:
+  service-token: INTERNAL_PAYMENT_SERVICE
+
+
+
